@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Find-in-Files</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>965</ColumnWidth1></Debug-Log>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>723</ColumnWidth1>
+        <ColumnWidth2>193</ColumnWidth2>
+        <ColumnWidth3>48</ColumnWidth3>
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window></Windows></PreferedWindows></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>194</Column0><Column1>54</Column1><Column2>42</Column2><Column3>0</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ShowCodeCoverage>0</ShowCodeCoverage><ShowInstrProfiling>0</ShowInstrProfiling></Disassembly>
+    <WATCH_1><expressions><item>UART_Command</item><item>by_TouchPanel</item><item>w_Power_On</item><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>161</item><item>150</item><item>100</item><item>100</item></col-widths><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></WATCH_1><TerminalIO><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><InputSource>1</InputSource><InputMode>10</InputMode><Filename>$PROJ_DIR$\TermIOInput.txt</Filename><InputEcho>1</InputEcho><ShowReset>0</ShowReset></TerminalIO><Register><PreferedWindows><Position>0</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Register><Find-in-Files><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window></Windows></PreferedWindows><ColumnWidth0>496</ColumnWidth0><ColumnWidth1>70</ColumnWidth1><ColumnWidth2>850</ColumnWidth2></Find-in-Files></Static>
+    <Windows>
+      
+      
+      
+    <Wnd4>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-10529-23030</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>SuperValue</ExpandedNode><ExpandedNode>SuperValue/Local</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd4><Wnd5><Tabs><Tab><Identity>TabID-22015-17131</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd5><Wnd6><Tabs><Tab><Identity>TabID-29830-5594</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd6><Wnd7><Tabs><Tab><Identity>TabID-20617-31046</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd7></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\software\JisFlash.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\HW.h</Filename><XPos>0</XPos><YPos>119</YPos><SelStart>3918</SelStart><SelEnd>3918</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\software\Erp.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\system.c</Filename><XPos>0</XPos><YPos>9</YPos><SelStart>527</SelStart><SelEnd>527</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\emlib\src\em_wdog.c</Filename><XPos>0</XPos><YPos>72</YPos><SelStart>3757</SelStart><SelEnd>3757</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\HW.c</Filename><XPos>0</XPos><YPos>30</YPos><SelStart>1410</SelStart><SelEnd>1486</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\emlib\inc\em_wdog.h</Filename><XPos>0</XPos><YPos>56</YPos><SelStart>2568</SelStart><SelEnd>2582</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\os_280.h</Filename><XPos>0</XPos><YPos>174</YPos><SelStart>8545</SelStart><SelEnd>8545</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Device\EnergyMicro\EFM32G\Source\IAR\startup_efm32g.s</Filename><XPos>0</XPos><YPos>111</YPos><SelStart>4516</SelStart><SelEnd>4516</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\software\Information.c</Filename><XPos>0</XPos><YPos>154</YPos><SelStart>5926</SelStart><SelEnd>5926</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\software\Power.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>45</SelStart><SelEnd>45</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\software\JISFlash.c</Filename><XPos>0</XPos><YPos>132</YPos><SelStart>4114</SelStart><SelEnd>4114</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>546</YPos><SelStart>18057</SelStart><SelEnd>18057</SelEnd></Tab><ActiveTab>13</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\software\RF_Module\RF_AP.c</Filename><XPos>0</XPos><YPos>499</YPos><SelStart>15328</SelStart><SelEnd>15328</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00ec0070><key>iaridepm.enu1</key></Toolbar-00ec0070></Sizes></Row0><Row1><Sizes><Toolbar-0f314ec0><key>debuggergui.enu1</key></Toolbar-0f314ec0></Sizes></Row1><Row2><Sizes><Toolbar-0f314f88><key>armjlink.enu1</key></Toolbar-0f314f88></Sizes></Row2></Top><Left><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>527</Bottom><Right>310</Right><x>-2</x><y>-2</y><xscreen>49023</xscreen><yscreen>1411</yscreen><sizeHorzCX>34043750</sizeHorzCX><sizeHorzCY>1724939</sizeHorzCY><sizeVertCX>216667</sizeVertCX><sizeVertCY>646699</sizeVertCY></Rect></Wnd4></Sizes></Row0></Left><Right><Row0><Sizes><Wnd5><Rect><Top>-2</Top><Left>-2</Left><Bottom>527</Bottom><Right>221</Right><x>-2</x><y>-2</y><xscreen>3733</xscreen><yscreen>542</yscreen><sizeHorzCX>2592361</sizeHorzCX><sizeHorzCY>662592</sizeHorzCY><sizeVertCX>154861</sizeVertCX><sizeVertCY>646699</sizeVertCY></Rect></Wnd5></Sizes></Row0><Row1><Sizes><Wnd6><Rect><Top>-2</Top><Left>219</Left><Bottom>527</Bottom><Right>366</Right><x>219</x><y>-2</y><xscreen>359</xscreen><yscreen>244</yscreen><sizeHorzCX>249306</sizeHorzCX><sizeHorzCY>298289</sizeHorzCY><sizeVertCX>102083</sizeVertCX><sizeVertCY>646699</sizeVertCY></Rect></Wnd6></Sizes></Row1></Right><Bottom><Row0><Sizes><Wnd7><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1442</Right><x>-2</x><y>-2</y><xscreen>1444</xscreen><yscreen>200</yscreen><sizeHorzCX>1002778</sizeHorzCX><sizeHorzCY>244499</sizeHorzCY><sizeVertCX>138889</sizeVertCX><sizeVertCY>244499</sizeVertCY></Rect></Wnd7></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

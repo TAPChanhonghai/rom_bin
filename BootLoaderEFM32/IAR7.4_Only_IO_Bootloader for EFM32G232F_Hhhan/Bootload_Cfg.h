@@ -1,0 +1,14 @@
+#ifndef __BOOTLOAD_CFG_H__
+#define __BOOTLOAD_CFG_H__
+
+
+
+
+#ifdef _SP100W_ 
+#define  APPLICATION_START_ADDRESS          0x00003000
+#else
+#define  APPLICATION_START_ADDRESS          0x00002000
+#endif
+#define  APPLICATION_START_ADDRESS_2        0x000013000
+#define  APPLICATION_END_ADDRESS        (APPLICATION_START_ADDRESS + 0x0000F37F)
+#endif

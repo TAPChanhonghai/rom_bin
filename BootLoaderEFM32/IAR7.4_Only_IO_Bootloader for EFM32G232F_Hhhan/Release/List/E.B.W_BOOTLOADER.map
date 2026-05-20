@@ -1,0 +1,420 @@
+###############################################################################
+#
+# IAR ELF Linker V7.40.3.8902/W32 for ARM                 26/Nov/2020  17:41:27
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Exe\E.B.W_BOOTLOADER.out
+#    Map file     =  
+#        F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\List\E.B.W_BOOTLOADER.map
+#    Command line =  
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\boot.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\Com_APP.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_acmp.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_adc.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_aes.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_assert.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_burtc.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_cmu.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_dac.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_dbg.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_dma.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_ebi.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_emu.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_gpio.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_i2c.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_int.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_lcd.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_lesense.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_letimer.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_leuart.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_msc.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_opamp.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_pcnt.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_prs.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_rmu.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_rtc.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_system.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_timer.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_usart.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_vcmp.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\em_wdog.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\HW.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\JISFlash.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\JisTimer.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\main.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\startup_efm32g.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\system.o"
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Obj\system_efm32g.o" --redirect
+#        _Printf=_PrintfSmallNoMb --redirect _Scanf=_ScanfSmallNoMb -o
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\Exe\E.B.W_BOOTLOADER.out" --map
+#        "F:\BootLoader\IAR7.4_Only_IO_Bootloader for
+#        EFM32G232F_Hhhan\Release\List\E.B.W_BOOTLOADER.map" --config
+#        "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.2\arm\config\linker\SiliconLaboratories\EFM32G232F128.icf" --entry
+#        __iar_program_start --inline --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x0001ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20003fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xb8
+  .intvec            ro code  0x00000000    0xb8  startup_efm32g.o [1]
+                            - 0x000000b8    0xb8
+
+"P1":                                     0x176c
+  .text              ro code  0x000000b8   0x584  em_cmu.o [1]
+  .text              ro code  0x0000063c   0x104  system_efm32g.o [1]
+  .text              ro code  0x00000740    0x14  em_emu.o [1]
+  Veneer             ro code  0x00000754     0x8  - Linker created -
+  Veneer             ro code  0x0000075c     0x8  - Linker created -
+  Veneer             ro code  0x00000764     0x8  - Linker created -
+  .text              ro code  0x0000076c   0x398  main.o [1]
+  .text              ro code  0x00000b04    0x28  em_msc.o [1]
+  .text              ro code  0x00000b2c   0x34c  HW.o [1]
+  .text              ro code  0x00000e78   0x2d4  Com_APP.o [1]
+  .text              ro code  0x0000114c     0x6  ABImemclr4.o [4]
+  .text              ro code  0x00001154    0x70  JisTimer.o [1]
+  .text              ro code  0x000011c4    0x76  ABImemcpy_unaligned.o [4]
+  .text              ro code  0x0000123c    0x20  em_system.o [1]
+  .text              ro code  0x0000125c    0x74  em_wdog.o [1]
+  .text              ro code  0x000012d0    0xde  em_usart.o [1]
+  .text              ro code  0x000013b0    0x62  em_gpio.o [1]
+  .text              ro code  0x00001414    0x32  ABImemset48.o [4]
+  .text              ro code  0x00001448    0x84  system.o [1]
+  .text              ro code  0x000014cc    0x78  em_dma.o [1]
+  .text              ro code  0x00001544    0x40  zero_init3.o [4]
+  .text              ro code  0x00001584    0x2c  copy_init3.o [4]
+  .text              ro code  0x000015b0    0x28  data_init.o [4]
+  .iar.init_table    const    0x000015d8    0x24  - Linker created -
+  .text              ro code  0x000015fc    0x1a  cmain.o [4]
+  .text              ro code  0x00001616     0x4  exit.o [3]
+  .text              ro code  0x0000161c     0xa  cexit.o [4]
+  .text              ro code  0x00001628     0xc  XXexit.o [4]
+  .text              ro code  0x00001634    0x10  startup_efm32g.o [1]
+  .text              ro code  0x00001644     0xc  cstartup_M.o [4]
+  .text              ro code  0x00001650     0x4  startup_efm32g.o [1]
+  .text              ro code  0x00001654     0x4  startup_efm32g.o [1]
+  .text              ro code  0x00001658     0x4  startup_efm32g.o [1]
+  .text              ro code  0x0000165c     0x4  startup_efm32g.o [1]
+  .text              ro code  0x00001660     0x4  startup_efm32g.o [1]
+  .text              ro code  0x00001664     0x4  startup_efm32g.o [1]
+  .text              ro code  0x00001668     0x4  startup_efm32g.o [1]
+  .text              ro code  0x0000166c     0x4  startup_efm32g.o [1]
+  .text              ro code  0x00001670     0x4  startup_efm32g.o [1]
+  .text              ro code  0x00001674     0x4  startup_efm32g.o [1]
+  .text              ro code  0x00001678     0x4  startup_efm32g.o [1]
+  .text              ro code  0x0000167c     0x4  startup_efm32g.o [1]
+  .text              ro code  0x00001680     0x4  startup_efm32g.o [1]
+  .text              ro code  0x00001684     0x4  startup_efm32g.o [1]
+  .text              ro code  0x00001688     0x4  startup_efm32g.o [1]
+  .text              ro code  0x0000168c     0x4  startup_efm32g.o [1]
+  .text              ro code  0x00001690     0x4  startup_efm32g.o [1]
+  .text              ro code  0x00001694     0x4  startup_efm32g.o [1]
+  .text              ro code  0x00001698     0x4  startup_efm32g.o [1]
+  .text              ro code  0x0000169c     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016a0     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016a4     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016a8     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016ac     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016b0     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016b4     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016b8     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016bc     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016c0     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016c4     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016c8     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016cc     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016d0     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016d4     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016d8     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016dc     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016e0     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016e4     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016e8     0x4  startup_efm32g.o [1]
+  .text              ro code  0x000016ec     0x0  startup_efm32g.o [1]
+  .rodata            const    0x000016ec     0x0  zero_init3.o [4]
+  .rodata            const    0x000016ec     0x0  copy_init3.o [4]
+  Initializer bytes  const    0x000016ec   0x138  <for P2 s0>
+                            - 0x00001824  0x176c
+
+"P2":                                      0x8a8
+  P2 s0                       0x20000000   0x138  <Init block>
+    .textrw          inited   0x20000000   0x100  em_msc.o [1]
+    .textrw          inited   0x20000100    0x2c  boot.o [1]
+    .data            inited   0x2000012c     0xc  system_efm32g.o [1]
+  .bss               zero     0x20000138    0x44  JisTimer.o [1]
+  .bss               zero     0x2000017c     0x4  Com_APP.o [1]
+  .bss               zero     0x20000180     0x4  Com_APP.o [1]
+  .bss               zero     0x20000184     0x4  Com_APP.o [1]
+  .bss               zero     0x20000188     0x2  em_emu.o [1]
+  .bss               zero     0x2000018a     0x2  main.o [1]
+  .bss               zero     0x2000018c     0x1  main.o [1]
+  .bss               zero     0x2000018d     0x1  system.o [1]
+  .noinit            uninit   0x20000190   0x100  Com_APP.o [1]
+  .noinit            uninit   0x20000290   0x100  Com_APP.o [1]
+  .noinit            uninit   0x20000390    0x90  Com_APP.o [1]
+  .noinit            uninit   0x20000420    0x88  Com_APP.o [1]
+  CSTACK                      0x200004a8   0x400  <Block>
+    CSTACK           uninit   0x200004a8   0x400  <Block tail>
+                            - 0x200008a8   0x8a8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x56:
+          0x20000138   0x56
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x138:
+          0x000016ec  0x138
+    1 destination range, total size 0x138:
+          0x20000000  0x138
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  rw code  ro data  rw data
+    ------                 -------  -------  -------  -------
+F:\BootLoader\IAR7.4_Only_IO_Bootloader for EFM32G232F_Hhhan\Release\Obj: [1]
+    Com_APP.o                  724                        804
+    HW.o                       844
+    JisTimer.o                 112                         68
+    boot.o                               44       44
+    em_cmu.o                 1 412
+    em_dma.o                   120
+    em_emu.o                    20                          2
+    em_gpio.o                   98
+    em_msc.o                    40      256      256
+    em_system.o                 32
+    em_usart.o                 222
+    em_wdog.o                  116
+    main.o                     920                          3
+    startup_efm32g.o           356
+    system.o                   132                          1
+    system_efm32g.o            260                12       12
+    ---------------------------------------------------------
+    Total:                   5 408      300      312      890
+
+command line: [2]
+    ---------------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                       4
+    ---------------------------------------------------------
+    Total:                       4
+
+rt7M_tl.a: [4]
+    ABImemclr4.o                 6
+    ABImemcpy_unaligned.o      118
+    ABImemset48.o               50
+    XXexit.o                    12
+    cexit.o                     10
+    cmain.o                     26
+    copy_init3.o                44
+    cstartup_M.o                12
+    data_init.o                 40
+    zero_init3.o                64
+    ---------------------------------------------------------
+    Total:                     382
+
+    Gaps                        14                          2
+    Linker created              24                36    1 024
+-------------------------------------------------------------
+    Grand Total:             5 832      300      348    1 916
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x000015d8          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x000015fc          --   Gb  - Linker created -
+?main                   0x000015fd         Code  Gb  cmain.o [4]
+BOOT_boot               0x2000010d   0x18  Code  Gb  boot.o [1]
+BOOT_jump               0x20000101    0xc  Code  Gb  boot.o [1]
+CMU_ClockDivSet         0x00000125  0x11a  Code  Gb  em_cmu.o [1]
+CMU_ClockEnable         0x00000241   0x76  Code  Gb  em_cmu.o [1]
+CMU_ClockFreqGet        0x000002b7  0x1c0  Code  Gb  em_cmu.o [1]
+CMU_ClockSelectGet      0x00000477   0x7e  Code  Gb  em_cmu.o [1]
+CMU_ClockSelectSet      0x000004f5   0xae  Code  Gb  em_cmu.o [1]
+CMU_FlashWaitStateControl
+                        0x000000dd   0x46  Code  Lc  em_cmu.o [1]
+CMU_FlashWaitStateMax   0x000000b9   0x24  Code  Lc  em_cmu.o [1]
+CMU_OscillatorEnable    0x000005ad   0x52  Code  Gb  em_cmu.o [1]
+CSTACK$$Base            0x200004a8          --   Gb  - Linker created -
+CSTACK$$Limit           0x200008a8          --   Gb  - Linker created -
+Com                     0x20000394    0x4  Data  Lc  Com_APP.o [1]
+Com_GetCommand          0x00000f63   0x2e  Code  Gb  Com_APP.o [1]
+Com_Initial             0x00000e79   0x44  Code  Gb  Com_APP.o [1]
+Com_RxProcess           0x000010d9   0x58  Code  Gb  Com_APP.o [1]
+Com_Rx_Int              0x00000fc1  0x118  Code  Gb  Com_APP.o [1]
+Com_Tx_Int              0x00000f91   0x30  Code  Gb  Com_APP.o [1]
+Com_Write               0x00000ef3   0x70  Code  Gb  Com_APP.o [1]
+Current_Transmission_Packet_Size
+                        0x20000182    0x2  Data  Gb  Com_APP.o [1]
+DMA_IRQHandler          0x000014cd   0x6e  Code  Gb  em_dma.o [1]
+EMU_UpdateOscConfig     0x00000741    0xa  Code  Gb  em_emu.o [1]
+Erase_AP_Info_Config    0x0000076d   0x3a  Code  Gb  main.o [1]
+Flash_Write             0x0000080b   0x44  Code  Gb  main.o [1]
+GPIO_PinModeSet         0x000013b1   0x62  Code  Gb  em_gpio.o [1]
+HW_COM_Initial_IO       0x00000ca3   0x5c  Code  Gb  HW.o [1]
+HW_Com_TX_INT_disable   0x00000d1f   0x2e  Code  Gb  HW.o [1]
+HW_Com_TX_INT_enable    0x00000d07   0x18  Code  Gb  HW.o [1]
+HW_Com_Uart_Send_Tx     0x00000cff    0x8  Code  Gb  HW.o [1]
+HW_Initial_Clock        0x00000b2d  0x176  Code  Gb  HW.o [1]
+HW_WDT_Initial_IO       0x00000d4d   0x24  Code  Gb  HW.o [1]
+HeaderSize              0x2000017c    0x4  Data  Gb  Com_APP.o [1]
+MSC_Deinit              0x00000b17   0x10  Code  Gb  em_msc.o [1]
+MSC_ErasePage           0x20000001   0x5a  Code  Gb  em_msc.o [1]
+MSC_Init                0x00000b05   0x12  Code  Gb  em_msc.o [1]
+MSC_WriteWord           0x2000006d   0x8a  Code  Gb  em_msc.o [1]
+R_State                 0x20000391    0x1  Data  Lc  Com_APP.o [1]
+Region$$Table$$Base     0x000015d8          --   Gb  - Linker created -
+Region$$Table$$Limit    0x000015fc          --   Gb  - Linker created -
+SYSTEM_ChipRevisionGet  0x0000123d   0x1c  Code  Gb  em_system.o [1]
+SysTick_Handler         0x00001449   0x2a  Code  Gb  system.o [1]
+SystemCoreClock         0x20000134    0x4  Data  Gb  system_efm32g.o [1]
+SystemCoreClockGet      0x0000063d   0x1a  Code  Gb  system_efm32g.o [1]
+SystemHFClockGet        0x00000657   0x7e  Code  Gb  system_efm32g.o [1]
+SystemHFXOClock         0x2000012c    0x4  Data  Lc  system_efm32g.o [1]
+SystemHFXOClockSet      0x000006db    0xe  Code  Gb  system_efm32g.o [1]
+SystemInit              0x000006e9    0x2  Code  Gb  system_efm32g.o [1]
+SystemLFRCOClockGet     0x000006eb    0x2  Code  Gb  system_efm32g.o [1]
+SystemLFXOClock         0x20000130    0x4  Data  Lc  system_efm32g.o [1]
+SystemLFXOClockGet      0x000006f3    0x2  Code  Gb  system_efm32g.o [1]
+Timer_100ms_Int         0x00001161    0xa  Code  Gb  JisTimer.o [1]
+Timer_Clear             0x0000116b    0xa  Code  Gb  JisTimer.o [1]
+Timer_Counter           0x00001175   0x4c  Code  Gb  JisTimer.o [1]
+Timer_Init              0x00001155    0xc  Code  Gb  JisTimer.o [1]
+USART1_RX_IRQHandler    0x00001473   0x18  Code  Gb  system.o [1]
+USART1_TX_IRQHandler    0x0000148b   0x14  Code  Gb  system.o [1]
+USART2_Initial          0x00000d71   0x56  Code  Gb  HW.o [1]
+USART2_RX_IRQHandler    0x0000149f    0xe  Code  Gb  system.o [1]
+USART2_TX_IRQHandler    0x000014ad    0xc  Code  Gb  system.o [1]
+USART_BaudrateAsyncSet  0x000012d1   0x58  Code  Gb  em_usart.o [1]
+USART_InitAsync         0x00001329   0x2c  Code  Gb  em_usart.o [1]
+USART_Reset             0x00001355   0x30  Code  Gb  em_usart.o [1]
+USART_Rx                0x00001399    0xc  Code  Gb  em_usart.o [1]
+USART_Tx                0x000013a5    0xa  Code  Gb  em_usart.o [1]
+Uart_RxBUff             0x20000190  0x100  Data  Lc  Com_APP.o [1]
+Uart_Rx_Package         0x20000420   0x88  Data  Lc  Com_APP.o [1]
+Uart_TxBUff             0x20000290  0x100  Data  Lc  Com_APP.o [1]
+Uart_Tx_Package         0x20000398   0x88  Data  Lc  Com_APP.o [1]
+WDOG_Feed               0x0000125d    0xe  Code  Gb  em_wdog.o [1]
+WDOG_Init               0x0000126b   0x5a  Code  Gb  em_wdog.o [1]
+__Vectors               0x00000000          --   Gb  startup_efm32g.o [1]
+__Vectors_End           0x000000b8         Data  Gb  startup_efm32g.o [1]
+__Vectors_Size {Abs}    0x000000b8          --   Gb  startup_efm32g.o [1]
+__aeabi_memclr4         0x0000114d         Code  Gb  ABImemclr4.o [4]
+__checksum              0x2000018a    0x2  Data  Gb  main.o [1]
+__cmain                 0x000015fd         Code  Gb  cmain.o [4]
+__exit                  0x00001629         Code  Gb  XXexit.o [4]
+__iar_Memset4_word      0x00001415         Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word      0x00001415         Code  Gb  ABImemset48.o [4]
+__iar_copy_init3        0x00001585   0x2c  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x000015b1   0x28  Code  Gb  data_init.o [4]
+__iar_program_start     0x00001645         Code  Gb  cstartup_M.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x000011c5         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned___aeabi_memcpy4
+                        0x000011e5         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned___aeabi_memcpy8
+                        0x000011e5         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_zero_init3        0x00001545   0x40  Code  Gb  zero_init3.o [4]
+__vector_table          0x00000000         Data  Gb  startup_efm32g.o [1]
+__vector_table_0x1c     0x0000001c         Data  Gb  startup_efm32g.o [1]
+_call_main              0x00001609         Code  Gb  cmain.o [4]
+_exit                   0x0000161d         Code  Gb  cexit.o [4]
+_main                   0x00001613         Code  Gb  cmain.o [4]
+aw_Timer_Data           0x20000138   0x40  Data  Lc  JisTimer.o [1]
+by_RxPoint              0x20000390    0x1  Data  Lc  Com_APP.o [1]
+by_TxTimeOut            0x20000392    0x1  Data  Lc  Com_APP.o [1]
+calculateChecksum       0x00000ebd   0x36  Code  Gb  Com_APP.o [1]
+cmuStatus               0x20000188    0x2  Data  Lc  em_emu.o [1]
+exit                    0x00001617    0x4  Code  Gb  exit.o [3]
+main                    0x0000084f  0x29c  Code  Gb  main.o [1]
+updateFlash             0x000007a7   0x64  Code  Gb  main.o [1]
+w_Timer_Flag            0x20000178    0x4  Data  Lc  JisTimer.o [1]
+
+
+[1] = F:\BootLoader\IAR7.4_Only_IO_Bootloader for EFM32G232F_Hhhan\Release\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = rt7M_tl.a
+
+  5 832 bytes of readonly  code memory
+    300 bytes of readwrite code memory
+    348 bytes of readonly  data memory
+  1 916 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
