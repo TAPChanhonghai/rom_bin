@@ -11,4 +11,5 @@
 		#define SUB_SOFT_VERSION                 71//10    修正在按键板上选择4个跑步模式中的一个后，在彩屏上点开始无法启动的问题
 
 
-SH_T9100T_LED_SelfTest_03  是增加了参数备份的boot 
+T9100T_LED_Boot1SelfTest2026  是增加了参数备份的boot 
+T9100T_LED_Boot1SelfTest202604  是增加了参数备份的boot 
