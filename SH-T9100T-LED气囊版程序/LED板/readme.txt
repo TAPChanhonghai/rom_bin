@@ -13,3 +13,6 @@
 
 T9100T_LED_Boot1SelfTest2026  是增加了参数备份的boot 
 T9100T_LED_Boot1SelfTest202604  是增加了参数备份的boot 
+
+
+T9100T_LED_7.3_IAP_20260331_20260610  是修复了板载心率检测bug的7.3程序
